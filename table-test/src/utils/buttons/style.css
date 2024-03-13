@@ -1,0 +1,31 @@
+.material-icons {
+	background: none;
+}
+
+.btnAdd {
+	border: none;
+	cursor: pointer;
+	background: none;
+	color: var(--terceary-color);
+	transition: 5ms ease-in-out;
+}
+
+#btnAdd:hover {
+	transform: scale(1.1);
+}
+#btnEdit,
+#btnDelete,
+#btnDone {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	color: rgb(155, 155, 155);
+	background-color: transparent;
+	scale: 0.6;
+	cursor: pointer;
+}
+
+#btnEdit:hover {
+	transform: scale(1.2);
+	color: blue;
+}

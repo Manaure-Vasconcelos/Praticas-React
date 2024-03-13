@@ -1,0 +1,58 @@
+@import './variables.css';
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  letter-spacing: 0.5px;
+  transition: 5ms ease-in-out;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin-top: 80px;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--orange-color);
+}
+
+h2 {
+  font-size: 17px;
+  color: var(--orange-color);
+}
+
+p {
+  text-indent: 30pt;
+  text-align: justify;
+  font-size: 16px;
+  margin: 5px 10px;
+}
+
+.bg-table {
+  border-top: 1px solid var(--light-gray-color);
+}
+
+.bg-table h1 {
+  color: var(--terceary-color);
+  font-weight: bold;
+}
+
+.bg-table h2,
+.headerTable {
+  color: var(--orange-color);
+  font-weight: bold;
+}
+
+.bg-table p {
+  text-indent: 0;
+  padding: 0;
+}

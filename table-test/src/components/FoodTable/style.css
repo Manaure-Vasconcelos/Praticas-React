@@ -1,0 +1,27 @@
+#divTable {
+  overflow: hidden;
+  width: 650px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0;
+}
+
+#foodTable {
+  display: table;
+  position: relative;
+  overflow: scroll;
+  width: 100%;
+  padding: 0px 10px 10px 10px; /* avaliar */ 
+  border-spacing: 0px;
+  text-align: center;
+}
+
+th {
+  padding: 5px;
+}
+
+.headerTable {
+  padding: 10px;
+}
