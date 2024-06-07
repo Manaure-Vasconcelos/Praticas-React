@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './Components/Classes/App.jsx'
-import Other from './Components/Classes/Other';
+import UseEffect from './Components/Classes/UseEffect.jsx'
+import UseCallBack from './Components/Classes/UseCallBack.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-    <Other/>
+    <UseEffect />
+    <UseCallBack />
   </React.StrictMode>,
 )
